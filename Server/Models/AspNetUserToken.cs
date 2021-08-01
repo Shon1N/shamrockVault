@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+
+#nullable disable
+
+namespace ShamrockVault.Server.Models
+{
+    public partial class AspNetUserToken
+    {
+        [Key]
+        public string UserId { get; set; }
+        [Key]
+        [StringLength(256)]
+        public string LoginProvider { get; set; }
+        [Key]
+        [StringLength(256)]
+        public string Name { get; set; }
+        public string Value { get; set; }
+
+        [ForeignKey(nameof(UserId))]
+        [InverseProperty(nameof(AspNetUser.AspNetUserTokens))]
+        public virtual AspNetUser User { get; set; }
+    }
+}

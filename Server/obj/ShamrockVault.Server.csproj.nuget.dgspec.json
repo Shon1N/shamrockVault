@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Server\\ShamrockVault.Server.csproj": {}
+  },
+  "projects": {
+    "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Client\\ShamrockVault.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Client\\ShamrockVault.Client.csproj",
+        "projectName": "ShamrockVault.Client",
+        "projectPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Client\\ShamrockVault.Client.csproj",
+        "packagesPath": "C:\\Users\\ShoniNemavhidi\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ShoniNemavhidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://code.handlr.io/nuget/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Shared\\ShamrockVault.Shared.csproj": {
+                "projectPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Shared\\ShamrockVault.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.8, 5.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Server\\ShamrockVault.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Server\\ShamrockVault.Server.csproj",
+        "projectName": "ShamrockVault.Server",
+        "projectPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Server\\ShamrockVault.Server.csproj",
+        "packagesPath": "C:\\Users\\ShoniNemavhidi\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ShoniNemavhidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://code.handlr.io/nuget/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Client\\ShamrockVault.Client.csproj": {
+                "projectPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Client\\ShamrockVault.Client.csproj"
+              },
+              "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Shared\\ShamrockVault.Shared.csproj": {
+                "projectPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Shared\\ShamrockVault.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Shared\\ShamrockVault.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Shared\\ShamrockVault.Shared.csproj",
+        "projectName": "ShamrockVault.Shared",
+        "projectPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Shared\\ShamrockVault.Shared.csproj",
+        "packagesPath": "C:\\Users\\ShoniNemavhidi\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\SafeHack\\BLAZOR\\ShamrockVault\\Repo\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ShoniNemavhidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://code.handlr.io/nuget/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
